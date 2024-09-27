@@ -4,6 +4,7 @@ namespace module4
 {
     internal class lessthan1
     {
+        public static string colour;
         public static void ConsoleColours()
         {
             Console.WriteLine("Lesson 1: something about colours");
@@ -11,7 +12,7 @@ namespace module4
             {
 
                 Console.Write("Colour? ");
-                string colour = Console.ReadLine();
+                colour = Console.ReadLine();
 
                 switch (colour)
                 {

@@ -61,10 +61,10 @@ namespace module4
 
         }
 
-        static void NameReverse() {
+        public static string name_reversed = "";
+        public static void NameReverse() {
             Console.Write("What's your name? ");
             string name = Console.ReadLine();
-            string name_reversed = "";
             for (int i = name.Length - 1; i >= 0; i--)
             {
                 if (i == name.Length - 1) { name_reversed += char.ToUpper(name[i]); }

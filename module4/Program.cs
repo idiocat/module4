@@ -8,6 +8,7 @@ namespace module4
         {
             lessthan1.ConsoleColours();
             lessthan3.Massive();
+            lessthan4.Tuples();
 
         }
     }
