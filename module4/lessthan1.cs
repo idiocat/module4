@@ -2,10 +2,11 @@
 
 namespace module4
 {
-    internal class lessthen1
+    internal class lessthan1
     {
         public static void ConsoleColours()
         {
+            Console.WriteLine("Lesson 1: something about colours");
             while (true)
             {
 

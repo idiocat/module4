@@ -1,10 +1,13 @@
-﻿namespace module4
+﻿using System;
+
+namespace module4
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            lessthen1.ConsoleColours();
+            lessthan1.ConsoleColours();
+            lessthan3.Massive();
 
         }
     }
